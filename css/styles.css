@@ -1,0 +1,38 @@
+body {
+  background: #bbbbbb;
+  margin: 0;
+}
+
+header{
+  overflow: auto;
+  background-color: #666;
+  color: white;
+  
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 15%;
+  float: left;
+  box-sizing: border-box;
+}
+
+main {
+  width: 85%;
+  float: right;
+  box-sizing: border-box;
+}
+
+a:hover {
+  background-color: white;
+}
+
+a {
+  transition: 1s;
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+  padding: 0.25em 1em;
+}
